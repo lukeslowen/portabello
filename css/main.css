@@ -1,0 +1,137 @@
+/* original text/link colour - BEBC8C/9EA57E (tables stayed the same) */
+
+body { scrollbar-arrow-color : #7FAEB6; scrollbar-base-color: #EBF2F3}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.7em;
+	color: #AAA87B;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+a:active {color: #8D8C68}
+a:hover {color: #8D8C68}
+a:link {color: #AAA87B; text-decoration: underline}
+a:visited {color: #AAA87B}
+a:visited:hover {color: #8D8C68}
+
+input, textarea {
+	background-color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #AAA87B;
+	font-size: 0.95em;
+}
+
+.topStrip {
+	background-color: #EBF2F3;
+}
+
+.bottomStrip {
+	background-color: #CDE0E3;
+	color: #FFFFFF;
+}
+
+.bottomStrip a:active {color: #FFFFFF; text-decoration: none}
+.bottomStrip a:hover {color: #FFFFFF; text-decoration: underline}
+.bottomStrip a:link {color: #FFFFFF; text-decoration: none}
+.bottomStrip a:visited {color: #FFFFFF; text-decoration: none}
+.bottomStrip a:visited:hover {color: #FFFFFF; text-decoration: underline}
+
+.mainBorder {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #CDE0E3;
+	border-right-color: #CDE0E3;
+	border-bottom-color: #CDE0E3;
+	border-left-color: #CDE0E3;
+}
+
+.content {
+	padding-top: 0px;
+	padding-right: 28px;
+	padding-bottom: 27px;
+	padding-left: 21px;
+	text-align: justify;
+	vertical-align: top;
+}
+
+.side {
+	background-image: url(../images/side/side_bg.gif);
+	background-repeat: no-repeat;
+}
+
+.text_header {
+	color: #9EA57E;
+	text-decoration: underline;
+}
+
+.table {
+	border: 1px solid #9EA57E;
+	width: 404px;
+}
+
+.table th {
+	font-size: 0.7em;
+	font-weight: bold;
+	border: 1px solid #9EA57E;
+	padding: 3px;
+	background-color: #9EA57E;
+	color: #FFFFFF;
+	vertical-align: middle;
+}
+
+.table td {
+	border: 1px solid #FFFFFF;
+	padding: 3px;
+	vertical-align: top;
+	line-height: 1.1;
+	text-align: left;
+}
+
+.table img {
+	border:none;
+}
+
+.textbox {
+	border: 1px solid #9EA57E;
+	width: 302px;
+}
+
+.textarea {
+	border: 1px solid #9EA57E;
+	width: 302px;
+	height: 100px;
+}
+
+.dropdown {
+	color: #BEBC8C;
+	font-size: 0.9em;
+	border: 1px solid #9EA57E;
+}
+
+.button {
+	background-color: #9EA57E;
+	vertical-align: middle;
+	font-size: 0.95em;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.nobold {
+	font-weight: normal;
+}
+
+.underline {
+	text-decoration:underline;
+}
+
+.nojustify {
+	text-align:left;
+}
